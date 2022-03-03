@@ -1,0 +1,71 @@
+body {
+
+    background: hsl(212, 45%, 89%);
+
+}
+
+
+.inicial{
+
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.referencia{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+    .referencia a{
+        color: rgb(186,85,211);
+        text-decoration: none;
+        text-transform: uppercase;
+
+    }
+        .referencia a:hover{
+
+            color:  hsl(220, 15%, 55%);
+
+        }
+            .referencia a:active {
+
+                color:  hsl(218, 44%, 22%);
+
+            }
+
+.caixabranca{
+    background: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 415px;
+    margin: 70px auto 0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+    #qrcode {
+
+        margin: 10px;
+        width: 280px;
+        height: 280;
+        border-radius: 10px;
+    }
+
+    .text1 { 
+        
+        margin-top: 7px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .text2{
+
+        margin-top: 15px;
+        font-size: 15px;
+        opacity: 70%;
+        text-align: center;
+    }
